@@ -1,0 +1,12 @@
+{
+    "TimSort": 0.0,
+    "CombSort": 0.0,
+    "TreeSort": 0.0,
+    "PigeonholeSort": 3.729992151260376,
+    "HeapSort": 0.0,
+    "BitonicSort": 0.0,
+    "GnomeSort": 0.0856,
+    "RadixSort1": 0.0,
+    "RadixSort2": 0.0009965896606445312,
+    "GmoneSort": 0.0
+}
