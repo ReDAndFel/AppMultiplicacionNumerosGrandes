@@ -1,3 +1,4 @@
+#App realizada por el equipo de trabajo apoyados con IA
 def multiplicar(arreglo1, arreglo2):
     """
     Hindu iterative static multiplication algorithm

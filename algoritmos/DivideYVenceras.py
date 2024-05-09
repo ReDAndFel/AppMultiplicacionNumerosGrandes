@@ -1,3 +1,4 @@
+#App realizada por el equipo de trabajo basado en las diapositivas de classroom
 def ajustar_tamanio(arreglo1, arreglo2):
     # Obtener la longitud máxima de los dos arreglos y asegurarse de que sea par
     max_length = max(len(arreglo1), len(arreglo2))

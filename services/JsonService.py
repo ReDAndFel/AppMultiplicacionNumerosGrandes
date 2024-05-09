@@ -1,5 +1,5 @@
+#App realizada por el equipo de trabajo
 import json
-
 
 def modify_property(json_file_path, property_name, value):
         

@@ -1,3 +1,5 @@
+#App realizada por el equipo de trabajo apoyados con IA basados en las diapositivas de classroom
+
 def multiplicar_dinamico(arreglo1, arreglo2):
     k = len(arreglo1) + len(arreglo2) - 1
     pos = len(arreglo1) + len(arreglo2) - 1

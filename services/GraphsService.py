@@ -1,4 +1,7 @@
+# App realizada por el equipo de trabajo apoyados con IA
+
 from . import JsonService as JS
+
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -9,18 +12,16 @@ def exec():
     labels = list(data.keys())
     values = list(data.values())
 
-    # Ordenar los valores de manera descendente
-    sorted_values = sorted(values, reverse=True)
-    sorted_labels = [label for _, label in sorted(zip(values, labels), reverse=True)]
+    # Ordenar los valores junto con las etiquetas de forma ascendente
+    sorted_data = sorted(zip(labels, values), key=lambda x: x[1])
 
-    # Asegurarse de que todas las listas tengan el mismo tamaño
-    min_length = len(sorted_labels)
-    sorted_labels = sorted_labels[:min_length]
-    sorted_values = sorted_values[:min_length]
+    # Extraer las etiquetas y los valores ordenados
+    sorted_labels, sorted_values = zip(*sorted_data)
 
     fig, ax = plt.subplots(figsize=(12, 6))
-    x = np.arange(min_length)
+    x = np.arange(len(sorted_labels))
     width = 0.4
+
     rects = ax.bar(x - width/2, sorted_values, width)
 
     ax.set_xlabel('Algoritmo')
@@ -28,5 +29,6 @@ def exec():
     ax.set_title('Comparación de tiempos algoritmos de ordenamiento')
     ax.set_xticks(x)
     ax.set_xticklabels(sorted_labels, rotation=90)
+
     plt.tight_layout()
     plt.show()

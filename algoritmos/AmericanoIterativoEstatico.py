@@ -1,3 +1,5 @@
+#App realizada por el equipo de trabajo basados en las diapositivas de classroom
+
 def multiplicar(arreglo1, arreglo2):
     k = len(arreglo1) + len(arreglo2) - 1
     pos = len(arreglo1) + len(arreglo2) - 1

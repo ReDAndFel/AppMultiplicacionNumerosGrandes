@@ -1,3 +1,5 @@
+#App realizada por el equipo de trabajo basados en las diapositivas de classroom
+
 def multiplicar_dinamico(arreglo1, arreglo2):
     tam = len(arreglo1) + len(arreglo2)
     resultado = [0] * tam

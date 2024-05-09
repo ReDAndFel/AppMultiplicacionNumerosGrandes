@@ -1,3 +1,4 @@
+#App realizada por el equipo de trabajo
 import json
 import random
 

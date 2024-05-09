@@ -1,3 +1,4 @@
+#App realizada por el equipo de trabajo apoyados en IA
 def multiplicar_recursivo_dinamico(arreglo1, arreglo2, i=0, j=0, resultado=None):
     if resultado is None:
         resultado = []
