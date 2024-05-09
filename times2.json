@@ -1,12 +1,12 @@
 {
-    "TimSort": 0.0010023117065429688,
-    "CombSort": 0.0020024776458740234,
-    "TreeSort": 0.08701705932617188,
-    "PigeonholeSort": 4.106992483139038,
-    "HeapSort": 0.003000020980834961,
-    "BitonicSort": 0.007996320724487305,
-    "GnomeSort": 76.0272,
-    "RadixSort1": 0.002962827682495117,
-    "RadixSort2": 0.006997108459472656,
-    "GmoneSort": 0.0
+    "AmericanoRecursivoDinamico": 0.010101795196533203,
+    "AmericanoRecursivoEstatico": 0.00841832160949707,
+    "AmericanoIterativoDinamico": 0.0,
+    "AmericanoIterativoEstatico": 0.0,
+    "DivideYVenceras": 0.0011777877807617188,
+    "HinduIterativoEstatico": 0.0,
+    "InglesaRecursivoDinamico": 0.0053327083587646484,
+    "InglesaRecursivoEstatico": 0.014609098434448242,
+    "InglesaIterativoDinamico": 0.0,
+    "InglesaIterativoEstatico": 0.0
 }
